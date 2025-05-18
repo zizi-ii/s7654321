@@ -1,6 +1,6 @@
 public class Hello { 
     
     public static int sum(int n) { 
-    	int result = 0;
+    	return (n == 1) ? 1 : n + sum(n - 1);
     } 
 }
